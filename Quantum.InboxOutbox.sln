@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5074ECE4-CB41-4155-9202-1252A2E15654}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{09EB2FBF-5DE0-49CE-9D6B-ED6351A0A82F}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quantum.InboxOutbox", "src\Quantum.InboxOutbox\InboxOutbox\Quantum.InboxOutbox.csproj", "{647E8521-7D2C-47EF-B17A-734EE58FFA33}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quantum.InboxOutbox.Outbox", "src\Quantum.InboxOutbox\Outbox\Quantum.InboxOutbox.Outbox.csproj", "{70E06339-B27E-4901-B1DF-AB31A8204EFA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quantum.InboxOutbox.Inbox", "src\Quantum.InboxOutbox\Inbox\Quantum.InboxOutbox.Inbox.csproj", "{4C3FE00E-29FE-4362-88D2-E10A535E7A7A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quantum.InboxOutbox.Configuration", "src\Quantum.InboxOutbox\Configuration\Quantum.InboxOutbox.Configuration.csproj", "{D0DC8DA5-B241-4834-AEAD-B7CF99840D31}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{647E8521-7D2C-47EF-B17A-734EE58FFA33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{647E8521-7D2C-47EF-B17A-734EE58FFA33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{647E8521-7D2C-47EF-B17A-734EE58FFA33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{647E8521-7D2C-47EF-B17A-734EE58FFA33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70E06339-B27E-4901-B1DF-AB31A8204EFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70E06339-B27E-4901-B1DF-AB31A8204EFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70E06339-B27E-4901-B1DF-AB31A8204EFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70E06339-B27E-4901-B1DF-AB31A8204EFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C3FE00E-29FE-4362-88D2-E10A535E7A7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C3FE00E-29FE-4362-88D2-E10A535E7A7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C3FE00E-29FE-4362-88D2-E10A535E7A7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C3FE00E-29FE-4362-88D2-E10A535E7A7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0DC8DA5-B241-4834-AEAD-B7CF99840D31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0DC8DA5-B241-4834-AEAD-B7CF99840D31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0DC8DA5-B241-4834-AEAD-B7CF99840D31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0DC8DA5-B241-4834-AEAD-B7CF99840D31}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{647E8521-7D2C-47EF-B17A-734EE58FFA33} = {5074ECE4-CB41-4155-9202-1252A2E15654}
+		{70E06339-B27E-4901-B1DF-AB31A8204EFA} = {5074ECE4-CB41-4155-9202-1252A2E15654}
+		{4C3FE00E-29FE-4362-88D2-E10A535E7A7A} = {5074ECE4-CB41-4155-9202-1252A2E15654}
+		{D0DC8DA5-B241-4834-AEAD-B7CF99840D31} = {5074ECE4-CB41-4155-9202-1252A2E15654}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7CE69326-D13A-4A9B-974F-50FB4C5203BA}
+	EndGlobalSection
+EndGlobal

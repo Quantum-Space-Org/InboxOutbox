@@ -1,0 +1,48 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.1</TargetFramework>
+		<Nullable>enable</Nullable>
+		<LangVersion>latest</LangVersion>
+		<AnalysisLevel>6.0</AnalysisLevel>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <Compile Remove="OutsideEventSubscriberRegistry.cs" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Remove="stylecop.json" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <CodeAnalysisDictionary Include="OutsideEventSubscriberRegistry.cs" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Resource Include="stylecop.json" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="6.0.1" />
+		<PackageReference Include="Quartz" Version="3.4.0" />
+	</ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\..\ServiceBus\Quantum.ServiceBus\Quantum.ServiceBus.csproj" />
+		<ProjectReference Include="..\..\src\Quantum.DataBase\Quantum.DataBase.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="StyleCop.Analyzers" Version="1.1.0-beta004" PrivateAssets="All" />
+	</ItemGroup>
+
+	<PropertyGroup>
+		<CodeAnalysisRuleSet>stylecop.ruleset</CodeAnalysisRuleSet>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Folder Include="Properties\" />
+	</ItemGroup>
+
+</Project>

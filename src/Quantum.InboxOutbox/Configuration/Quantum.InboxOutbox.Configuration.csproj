@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<LangVersion>preview</LangVersion>
+		<EnablePreviewFeatures>true</EnablePreviewFeatures>
+		<Authors>Masoud Bahrami</Authors>
+		<Company>Quantum Space Fundation</Company>
+		<Version>0.0.1</Version>
+		<PackageProjectUrl>https://github.com/Quantum-Space-Org/Core</PackageProjectUrl>
+
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.1" />
+		<PackageReference Include="Quantum.Configurator" Version="0.0.1" />
+		<PackageReference Include="Quantum.Database.EntityFramework" Version="0.0.1" />
+
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\InboxOutbox\Quantum.InboxOutbox.csproj" />
+		<ProjectReference Include="..\Inbox\Quantum.InboxOutbox.Inbox.csproj" />
+		<ProjectReference Include="..\Outbox\Quantum.InboxOutbox.Outbox.csproj" />
+	</ItemGroup>
+
+</Project>
